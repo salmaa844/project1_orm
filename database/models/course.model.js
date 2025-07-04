@@ -23,6 +23,10 @@ const Course = sequelize.define("Course", {
     price: {
         type: DataTypes.FLOAT,
         allowNull: false
+    },
+    isDeleted:{
+        type:DataTypes.BOOLEAN,
+        defaultValue:false
     }
 
 }, {
