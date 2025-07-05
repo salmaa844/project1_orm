@@ -1,1 +1,1 @@
-﻿# Course Management System with ORM
+﻿# Course Management System API
