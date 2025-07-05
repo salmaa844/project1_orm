@@ -16,6 +16,8 @@ Before running the API, make sure you have the following installed:
 - MySQL Database
 
 # Installation 
-1. Clone the repository:
-  git clone https://github.com/salmaa844/project1_orm.git
+## Clone the Repository
+
+```bash
+git clone https://github.com/salmaa844/project1_orm.git
 
