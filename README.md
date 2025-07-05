@@ -20,3 +20,32 @@ Before running the API, make sure you have the following installed:
 ```bash
 git clone https://github.com/salmaa844/project1_orm.git
 
+```
+2. Navigate to the project directory
+```bash
+cd project1_orm
+
+```
+3. Install dependencies:
+```bash
+npm install
+```
+4. Create a .env file in the root directory and add the following environment variables
+```bash
+DB_HOST=localhost
+DB_NAME=your_database_name
+DB_USER=your_database_user
+DB_PASSWORD=your_database_password
+DB_DIALECT=mysql
+
+JWT_SECRET=your_jwt_secret
+
+EMAIL=your_email@gmail.com
+EMAIL_PASS=your_email_password
+```
+5. Start the server: 
+```bash
+npm run dev
+```
+
+
