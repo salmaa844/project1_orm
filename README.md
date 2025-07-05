@@ -50,25 +50,25 @@ npm run dev
 ```
 # API Overview
 
-### Authentication:
+### Authentication
 
 - POST /api/auth/register — Register new user
 
 - POST /api/auth/login — Login user
 
-## Courses:
+### Courses
 
 - GET /api/courses — Get all courses
 
 - POST /api/courses — Create new course (Admin)
 
-## Enrollments:
+### Enrollments
 
 - POST /api/enrollments — Enroll in a course
 
 - GET /api/enrollments — Get my enrolled courses
 
-## Reviews:
+### Reviews
 
 - POST /api/reviews — Add a review
 
