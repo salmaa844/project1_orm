@@ -50,7 +50,7 @@ npm run dev
 ```
 # API Overview
 
-## Authentication:
+Authentication:
 
 - POST /api/auth/register — Register new user
 
