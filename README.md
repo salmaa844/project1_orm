@@ -17,5 +17,5 @@ Before running the API, make sure you have the following installed:
 
 # Installation 
 1. Clone the repository:
-
+  git clone https://github.com/salmaa844/project1_orm.git
 
