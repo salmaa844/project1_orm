@@ -15,4 +15,7 @@ Before running the API, make sure you have the following installed:
 - Node.js
 - MySQL Database
 
+# Installation 
+1. Clone the repository:
+
 
