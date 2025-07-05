@@ -32,6 +32,7 @@ npm install
 ```
 4. Create a .env file in the root directory and add the following environment variables
 ```bash
+PORT=your_server_port
 DB_HOST=localhost
 DB_NAME=your_database_name
 DB_USER=your_database_user
@@ -47,5 +48,31 @@ EMAIL_PASS=your_email_password
 ```bash
 npm run dev
 ```
+# API Overview
+
+## Authentication:
+
+- POST /api/auth/register — Register new user
+
+- POST /api/auth/login — Login user
+
+## Courses:
+
+- GET /api/courses — Get all courses
+
+- POST /api/courses — Create new course (Admin)
+
+## Enrollments:
+
+- POST /api/enrollments — Enroll in a course
+
+- GET /api/enrollments — Get my enrolled courses
+
+## Reviews:
+
+- POST /api/reviews — Add a review
+
+- GET /api/reviews — Get reviews
+
 
 
